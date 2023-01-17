@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: rgb(238, 175, 15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    margin-right: 8%;
+}
+
+nav img {
+    margin-left: 5%;
+    padding: 8px;
+}
+
+.topHome {
+    background-image: url("/images/hero-image.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.topHome h1 {
+    padding: 10px;
+    background-color: white;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    width: fit-content;
+    margin-bottom: 8%;
+    margin-right: 20%;
+}
