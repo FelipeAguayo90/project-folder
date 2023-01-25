@@ -7,34 +7,73 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
 }
 
-nav ul li {
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+
+}
+
+h2 {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+h1, h2 {
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 35px;
+    padding: 60px 0 18px 0;
+}
+
+h4 {
+    font-size: 18px;
+    padding: 18px 0 8px 16px;
+}
+
+p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 31px;
+    line-height: 1.5;
+}
+
+.navigation li {
     display: inline;
     margin-left: 15px;
-    font-family: 'Noto Sans Tangsa', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 a {
     text-decoration: none;
     color: black;
+    padding: 10px;
 }
 
-nav {
-    background-color: rgb(238, 175, 15);
+.navbars {
+    background-color: rgb(241, 165, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 117px;
+}
+
+nav div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar {
-    margin-right: 8%;
+nav.home {
+    border-bottom: 3px solid white;
 }
 
-nav img {
-    margin-left: 5%;
-    padding: 8px;
+.logo {
+    height: 100px;
 }
 
 .topHome {
@@ -52,7 +91,197 @@ nav img {
     padding: 10px;
     background-color: white;
     font-family: 'Noto Sans Tangsa', sans-serif;
+    font-size: 50px;
     width: fit-content;
     margin-bottom: 8%;
-    margin-right: 20%;
+    margin-right: 10%;
+}
+
+ul.categoryImages img {
+    height: 300px;
+}
+
+.categoryImages li {
+    height: 400px;
+    width: 425px;
+    overflow: hidden;
+}
+
+.categoryImages {
+    display: flex;
+    justify-content: space-between;
+}
+
+figcaption {
+    font-size: 22px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+/* .categoryPics {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .categoryPics img {
+   height: 200px;
+} */
+
+.gray {
+    background-color: rgb(218, 223, 234);
+}
+
+.width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 22px;
+}
+
+.healthyRecipes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.healthyRecipes li {
+    height: 400px;
+    width: 310px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.healthyRecipes img {
+    height: 310px;
+    width: auto;
+}
+
+.healthyRecipes figcaption {
+    background-color: white;
+    margin-bottom: 50px;
+    position: relative;
+    top: -3px;
+}
+
+ul.border img {
+    border: 8px solid rgb(218, 223, 234);
+}
+
+.bottom li {
+    margin-bottom: 50px;
+}
+
+/* .time {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+ul.time {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.time li {
+    width: 350px;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+.recipeSection h2 {
+    margin-top: 40px;
+}
+
+.time span {
+    font-weight: bold;
+}
+
+.recipeSection {
+    height: 175px;
+}
+
+.weeklyBurger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+
+.reviews p {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.quote {
+    text-align: center;
+    color: rgb(87,86,86);
+    font-weight: 700;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 33px;
+    line-height: normal;
+} 
+
+.lighgray {
+    background-color: rgb(237,240,244);
+    padding: 35px 0;
+}
+
+button {
+    background-color: rgb(166,50,35);
+    padding: 8px;
+    border-radius: 30px;
+}
+
+button a {
+    color: white;
+}
+
+.stepsContainer {
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.stepsContainer div:nth-child(1) {
+    width: 50%;
+}
+
+.stepsContainer div:nth-child(2) {
+    width: 50%;
+}
+
+.stepsContainer li {
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+.stepsContainer ul {
+    padding-left: 16px;
+}
+
+.stepsContainer ol li {
+    padding-right: 30px;
+    padding-left: 20px;
+    margin: 0 25px 25px 0;
+}
+
+.fa-star {
+    color: rgb(166,50,35);
+    margin: 0 2px;
+}
+
+.fa-print {
+    color: rgb(154,154,154);
+    padding: 5px;
+    border: 1px solid rgb(154,154,154);
+    border-radius: 15px;
+    margin: 0 10px;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
 }
