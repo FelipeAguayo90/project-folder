@@ -112,7 +112,7 @@ ul.categoryImages img {
     justify-content: space-between;
 }
 
-figcaption {
+span {
     font-size: 22px;
     padding: 10px;
     display: flex;
@@ -158,7 +158,7 @@ footer p {
     width: auto;
 }
 
-.healthyRecipes figcaption {
+.healthyRecipes span {
     background-color: white;
     margin-bottom: 50px;
     position: relative;
