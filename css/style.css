@@ -77,7 +77,7 @@ nav.home {
 }
 
 .topHome {
-    background-image: url("/images/hero-image.jpg");
+    background-image: url("../images/hero-image.jpg");
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
